@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.background {
+    background-color: gainsboro;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.text1 {
+    color: darkblue;
+    margin: 50px auto 0 auto;
+    font-size: 40px;
+    font-family: "Lavishly Yours", cursive;
+}
+
+.text2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.star1 {
+    position: absolute;
+    left: 300px;
+    bottom: 500px;
+}
+
+.star2 {
+    position: absolute;
+    right: 250px;
+    top: 400px;
+}
+
+.me {
+    width: 100%;
+}
+
+.pfp img {
+    margin: 50px auto 0 auto;
+    border-radius: 50%;
+}
+
+.me {
+    background-color: aliceblue;
+}
+
+.hi {
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr {
+    border: dotted #333 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: 100px auto 20px auto;
+}
+.skills{
+    padding-bottom: 60px;
+}
+
+.p {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background-color: cornflowerblue;
+    border-radius: 16px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+background: rgba(11, 59, 142, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(11, 59, 142, 0.64);
+}
+.end{
+    background-color: #66bfbf ;
+    padding: 50px 0 80px 0px;
+    text-align: center;
+}
+.footer-link{
+    font-size: small;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    color: rgb(87, 125, 196);
+}
+.copyright{
+    font-size: small;
+    color: azure;
+}
+@media (max-width:600px){
+   
+.type img{
+    width:150px ;
+}
+ .p{
+        width: 80%; 
+        grid-template-columns: 1fr; 
+        text-align: center; 
+    }
+    .star1{
+        left: 10px;
+        
+    }
+    .star2{
+        right: 10px;
+        bottom: 50px;
+    }
+p{
+    font-size:15px ;
+
+}
+h3{
+    font-size: 20px;
+}
+.chili img{
+width: 150px;
+}
+.about p{
+    font-size: 20px;
+}
+}
